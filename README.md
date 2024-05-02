@@ -18,7 +18,7 @@ sudo docker pull aiyaraaiya/go_docker_test:v1.0
 sudo docker images
 
 docker run -p -d host_port:container_port image_name
-sudo docker run --name=demo-test -p 8079:8080 --network=bridge -d aiyaraaiya/go_docker_test:latest
+sudo docker run -d --name=demo-test -p 8079:8080 --network=bridge aiyaraaiya/go_docker_test:latest
 
 sudo docker ps -a
 sudo docker rm -f
