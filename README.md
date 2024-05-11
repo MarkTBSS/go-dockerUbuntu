@@ -9,7 +9,7 @@ docker build -t image_name .
 [OPTIONAL]docker build -t username/my_image:v1.0 .
 docker build -t aiyaraaiya/easypdpa_web_api:v1.0.0 .
 
-docker save -o go_docker_test.tar aiyaraaiya/go_docker_test:v1.0
+docker save -o easypdpa_web_api_v_1_0_0.tar aiyaraaiya/easypdpa_web_api:v1.0.0
 docker load -i go_docker_test_v1.0.tar
 
 sudo docker pull username/my_image:v1.0
